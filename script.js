@@ -3,11 +3,15 @@ const checkBtn = document.getElementById("check-btn");
 const clearBtn = document.getElementById("clear-btn");
 const resultDiv = document.getElementById("results-div");
 
+
+
 const checkUserInput = () => {
   if (userInput.value === "") {
     alert("Please provide a phone number");
   }
 };
+
+
 
 const clear = () => {
   resultDiv.textContent = "";
