@@ -3,8 +3,6 @@ const checkBtn = document.getElementById("check-btn");
 const clearBtn = document.getElementById("clear-btn");
 const resultDiv = document.getElementById("results-div");
 
-
-
 const checkUserInput = () => {
   const input = userInput.value.trim();
 
